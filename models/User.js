@@ -85,10 +85,6 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: true,
       },
-      equipe_id: {
-        type: DataTypes.INTEGER,
-        allowNull: true,
-      },
       tel_ip: {
         type: DataTypes.INTEGER,
         allowNull: true,
