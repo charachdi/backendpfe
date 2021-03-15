@@ -38,8 +38,8 @@ Router.post('/',async (req,res)=>{
 
       // Create new equipe
       const NewEquipe = {
-        Nom_equipe : nomService,
-        Service : nomEquipe,
+        Nom_equipe : nomEquipe,
+        Service : nomService,
         
          }
 
